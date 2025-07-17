@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 import math
-class Figura:
+class Figura(ABC):
     @abstractmethod
     def calcular_area(self):
         pass
